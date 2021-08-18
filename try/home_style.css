@@ -1,0 +1,39 @@
+.full-page
+{	height: 150vh;
+    width: 100%;
+    background: linear-gradient(white,rgb(137,207,240));
+    position: absolute;
+}.image{
+		margin-left: 200px;
+		width: 70%;
+		height: 400px;
+		border: solid orange;
+		position: center;
+		opacity: 0.7;
+}
+.box{
+	margin-left: 30px;
+	margin-top: 30px;
+	height: 200px;
+	width: 200px;
+	padding: 30px;
+	position: absolute;
+	border: 10px solid blue;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+}
+.box:hover{
+	height: 250px;
+	border:pink; 
+
+}
+label{
+	font-size:20px;
+
+}
+.carousel-caption{
+	color: black;
+	font-style: initial;
+	font-family: serif;
+}
